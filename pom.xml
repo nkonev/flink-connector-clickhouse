@@ -159,11 +159,12 @@
 				<artifactId>maven-shade-plugin</artifactId>
 			</plugin>
 
+			<!--
 			<plugin>
 				<groupId>org.commonjava.maven.plugins</groupId>
 				<artifactId>directory-maven-plugin</artifactId>
 			</plugin>
-
+-->
 		</plugins>
 
 		<pluginManagement>
