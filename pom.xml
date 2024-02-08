@@ -255,5 +255,14 @@
 
 	</build>
 
+	<profiles>
+		<profile>
+			<!-- to get gpg.passphrase from ~/.m2/settings.xml -->
+		<id>ossrh</id>
+		<activation>
+			<activeByDefault>true</activeByDefault>
+		</activation>
+		</profile>
+	</profiles>
 
 </project>
