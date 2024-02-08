@@ -222,13 +222,6 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>org.sonatype.central</groupId>
-				<artifactId>central-publishing-maven-plugin</artifactId>
-				<configuration>
-					<scipPublishing>false</scipPublishing>
-				</configuration>
-			</plugin>
 
 		</plugins>
 	</build>
