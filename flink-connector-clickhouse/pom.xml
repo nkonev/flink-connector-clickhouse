@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>name.nkonev.flink</groupId>
 		<artifactId>flink-connector-clickhouse-parent</artifactId>
-		<version>1.17.1-4</version>
+		<version>1.17.1-5-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>flink-connector-clickhouse</artifactId>
