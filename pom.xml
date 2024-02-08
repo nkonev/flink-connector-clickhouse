@@ -11,7 +11,7 @@
 
 	<groupId>org.apache.flink</groupId>
 	<artifactId>flink-connector-clickhouse-parent</artifactId>
-	<version>1.17.3-SNAPSHOT</version>
+	<version>1.17.1-0-SNAPSHOT</version>
 
 	<name>Flink : Connectors : Clickhouse Parent</name>
 	<modules>
@@ -236,7 +236,6 @@
 				<extensions>true</extensions>
 				<configuration>
 					<publishingServerId>central</publishingServerId>
-					<tokenAuth>true</tokenAuth>
 				</configuration>
 			</plugin>
 		</plugins>
