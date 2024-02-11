@@ -1,5 +1,11 @@
 # Flink ClickHouse Connector
 
+It is unofficial temporary fork of https://github.com/itinycheng/flink-connector-clickhouse
+having goal to publish it to Maven Central.
+
+In the future it should be superceded by wirk made under [FLIP-202](https://cwiki.apache.org/confluence/display/FLINK/%5BDRAFT%5D+FLIP-202%3A+Introduce+ClickHouse+Connector)
+
+
 [Flink](https://github.com/apache/flink) SQL connector
 for [ClickHouse](https://github.com/yandex/ClickHouse) database, this project Powered
 by [ClickHouse JDBC](https://github.com/ClickHouse/clickhouse-jdbc).
@@ -82,12 +88,19 @@ Since version 1.16, we have taken shard weight into consideration, this may affe
 
 ## Maven Dependency
 
-The project isn't published to the maven central repository, we need to deploy/install to our own
-repository before use it, step as follows:
+```xml
 
+<dependency>
+    <groupId>name.nkonev.flink</groupId>
+    <artifactId>flink-sql-connector-clickhouse</artifactId>
+    <version>1.17.1-7</version>
+</dependency>
+```
+
+## Building
 ```bash
 # clone the project
-git clone https://github.com/itinycheng/flink-connector-clickhouse.git
+git clone https://github.com/nkonev/flink-connector-clickhouse.git
 
 # enter the project directory
 cd flink-connector-clickhouse/
@@ -101,15 +114,6 @@ git checkout $branch_name
 # install or deploy the project to our own repository
 mvn clean install -DskipTests
 mvn clean deploy -DskipTests
-```
-
-```xml
-
-<dependency>
-    <groupId>org.apache.flink</groupId>
-    <artifactId>flink-connector-clickhouse</artifactId>
-    <version>1.16.0-SNAPSHOT</version>
-</dependency>
 ```
 
 ## How to use
