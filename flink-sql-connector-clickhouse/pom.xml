@@ -187,23 +187,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<executions>
-					<execution>
-						<goals>
-							<goal>test-jar</goal>
-						</goals>
-						<configuration>
-							<includes>
-								<include>META-INF/LICENSE</include>
-								<include>META-INF/NOTICE</include>
-							</includes>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
@@ -271,7 +255,17 @@
 							<artifactSet>
 								<includes>
 									<include>org.apache.flink:flink-connector-base</include>
-									<include>org.apache.flink:flink-connector-clickhouse</include>
+									<include>ru.yandex.clickhouse:clickhouse-jdbc</include>
+									<include>org.apache.httpcomponents:httpclient</include>
+									<include>org.apache.httpcomponents:httpcore</include>
+									<include>commons-logging:commons-logging</include>
+									<include>org.apache.commons:commons-lang3</include>
+									<include>commons-codec:commons-codec</include>
+									<include>org.apache.httpcomponents:httpmime</include>
+									<include>org.lz4:lz4-java</include>
+									<include>com.fasterxml.jackson.core:jackson-databind</include>
+									<include>com.fasterxml.jackson.core:jackson-annotations</include>
+									<include>com.fasterxml.jackson.core:jackson-core</include>
 								</includes>
 								<excludes>
 									<!-- These jars must exist on the server side -->
