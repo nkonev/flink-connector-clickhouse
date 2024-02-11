@@ -29,6 +29,23 @@
 		</license>
 	</licenses>
 
+	<developers>
+		<developer>
+			<id>itinycheng</id>
+			<name>itinycheng</name>
+			<roles>
+				<role>Original author</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>nkonev</id>
+			<name>Nikita Konev</name>
+			<roles>
+				<role>Temporary maintainer</role>
+			</roles>
+		</developer>
+	</developers>
+
 	<scm>
 		<connection>scm:git:git://github.com/nkonev/flink-connector-clickhouse.git</connection>
 		<developerConnection>scm:git:git@github.com:nkonev/flink-connector-clickhouse.git</developerConnection>
