@@ -93,7 +93,7 @@ Since version 1.16, we have taken shard weight into consideration, this may affe
 <dependency>
     <groupId>name.nkonev.flink</groupId>
     <artifactId>flink-sql-connector-clickhouse</artifactId>
-    <version>1.17.1-7</version>
+    <version>1.17.1-8</version>
 </dependency>
 ```
 
