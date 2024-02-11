@@ -15,9 +15,7 @@
 
 	<name>Flink : Connectors : Clickhouse Parent</name>
 	<modules>
-		<module>flink-connector-clickhouse</module>
 		<module>flink-sql-connector-clickhouse</module>
-		<module>flink-connector-clickhouse-e2e-test</module>
 	</modules>
 	<packaging>pom</packaging>
 	<url>https://flink.apache.org</url>
@@ -196,6 +194,11 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-install-plugin</artifactId>
 			</plugin>
 
 			<plugin>
