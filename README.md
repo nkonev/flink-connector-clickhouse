@@ -1,10 +1,11 @@
 # Flink ClickHouse Connector
 
-It is unofficial temporary fork of https://github.com/itinycheng/flink-connector-clickhouse
+It is an unofficial temporary fork of [flink-connector-clickhouse](https://github.com/itinycheng/flink-connector-clickhouse)
 having goal to publish it to Maven Central.
 
-In the future it should be superceded by wirk made under [FLIP-202](https://cwiki.apache.org/confluence/display/FLINK/%5BDRAFT%5D+FLIP-202%3A+Introduce+ClickHouse+Connector)
+In the future it should be superseded by work made under [FLIP-202](https://cwiki.apache.org/confluence/display/FLINK/%5BDRAFT%5D+FLIP-202%3A+Introduce+ClickHouse+Connector).
 
+---
 
 [Flink](https://github.com/apache/flink) SQL connector
 for [ClickHouse](https://github.com/yandex/ClickHouse) database, this project Powered
